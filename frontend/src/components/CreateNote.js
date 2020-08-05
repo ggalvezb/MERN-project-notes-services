@@ -75,7 +75,7 @@ export default class CreateNote extends Component {
         return (
             <div className="col-md-6 offset-md-3">
                 <div className="card card-body">
-                    <h4>Create a Note</h4>
+                    <h4>Crear Nota</h4>
                     <form onSubmit={this.onSubmit}>
                         {/* SELECT THE USER */}
                         <div className="form-group">
@@ -122,9 +122,7 @@ export default class CreateNote extends Component {
                             <DatePicker className="form-control" selected={this.state.date} onChange={this.onChangeDate} />
                         </div>
                         <button className="btn btn-primary">
-                            Save <i className="material-icons">
-                                assignment
-</i>
+                            Guardar
                         </button>
                     </form>
                 </div>
